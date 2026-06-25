@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { createClient } from "@/lib/supabase-browser";
+import { createClient } from "@/lib/supabase-client";
 import type { Agent } from "@/types/database";
 import { Plus, Copy, Check, Trash2, ExternalLink, X, Pencil } from "lucide-react";
 
